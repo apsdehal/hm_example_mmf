@@ -4,7 +4,6 @@ This repository serves as an example of how to use MMF as a library in your proj
 
 The example tries to replicate the model developed in DrivenData's [blog post](https://www.drivendata.co/blog/hateful-memes-benchmark/) on the Hateful Memes.
 
-
 ## Installation
 
 Preferably, create your own conda environment before following the steps below:
@@ -14,6 +13,10 @@ git clone https://github.com/apsdehal/hm_example_mmf
 cd hm_example_mmf
 pip install -r requirements.txt
 ```
+
+## Prerequisites
+
+Please follow prerequisites for the Hateful Memes dataset at [this link](https://fb.me/hm_prerequisites).
 
 ## Running
 
