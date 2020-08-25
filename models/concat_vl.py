@@ -35,7 +35,7 @@ class LanguageAndVisionConcat(BaseModel):
             self.vision_module(image)
         )
         combined = torch.cat(
-            [text_features, image_features.squeeze()], dim=1
+            [text_features, image_features.squeeze(dim=1)], dim=1
         )
         fused = self.dropout(
             torch.nn.functional.relu(
